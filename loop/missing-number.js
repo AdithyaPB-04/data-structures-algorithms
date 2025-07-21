@@ -31,3 +31,8 @@ function missingNumber2(num){
     }
 }
 console.log(missingNumber2([0,1,2,4,5,6,7,8,9,10]))
+
+function missingNumber3(num){
+    return num.length*(num.length+1)/2 - num.reduce((acc,num)=> num+acc)
+}
+console.log(missingNumber3([0,1,2,3,5,6,7,8,9,10]))
