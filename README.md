@@ -22,33 +22,30 @@ Currently focusing on solving problems from LeetCode, building consistency and p
 - Dynamic Programming
 -->
 
-<!--
 ## 📘 Progress Tracker
 
-| Topic        | Solved |
-|--------------|--------|
-| Arrays       | 0/50   |
-| Strings      | 0/30   |
-| Trees        | 0/20   |
--->
+| Topic           | Solved |
+|-----------------|--------|
+| Loops           | 8/8    |
+| Array           | 3/10   |
+| Time Complexity | 4/4    |
 
-<!--
+
 ## 🧠 Platforms
 
 - [LeetCode](https://leetcode.com/)
 - [HackerRank](https://www.hackerrank.com/)
 - [Codeforces](https://codeforces.com/)
--->
 
-<!--
+
 ## 📂 Structure
 
 Each folder contains:
 - Problem statement
-- Solution (in TypeScript)
+- Solution (in Jvascript)
 - Time & Space complexity
 - Explanation (optional)
--->
+
 
 ---
 
