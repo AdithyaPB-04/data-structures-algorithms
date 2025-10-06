@@ -84,3 +84,35 @@ console.log(whiteSpaceString.trimStart())
 
 //to remove only end
 console.log(whiteSpaceString.trimEnd())
+
+console.log(str.toLowerCase());
+console.log(str.toUpperCase());
+
+console.log(str.toLocaleLowerCase());
+console.log(str.toLocaleUpperCase());
+
+/*toLowerCase / toUpperCase → Always uses default English-like mappings.
+toLocaleLowerCase / toLocaleUpperCase → Uses language-specific rules (important for languages like Turkish, Greek, Lithuanian, etc.).*/
+
+
+//convert number to a string  (any datatypes to string)
+let num = 123;
+console.log(num.toString());
+
+//convert object to string
+
+let obj = {
+    name: "Adithya",
+    course: "DSA"
+}
+console.log(JSON.stringify(obj))
+
+//concat two string
+
+const lastName = "P B";
+
+console.log(firstName.concat(' ',lastName, " is ", "Best"))
+
+console.log(firstName + ' ' + lastName);
+
+console.log(`${firstName} ${lastName}`)//string literal
